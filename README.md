@@ -10,3 +10,7 @@ main
 
 ## Fun Fact: 
 ##### I love investing
+
+
+## What I've learned
+I have learned the essentials of managing branches through Github, such as committing changes, merging changes through different branches, reverting changes, and resolving conflicts. 

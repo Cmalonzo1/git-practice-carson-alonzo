@@ -13,4 +13,12 @@ main
 
 
 ## What I've learned
-I have learned the essentials of managing branches through Github, such as committing changes, merging changes through different branches, reverting changes, and resolving conflicts. 
+I have learned the essentials of managing branches through Github.
+
+Things I've learned: 
+- committing/pushing changes
+- Merging changes through different branches
+- Reverting changes
+- Resolving conflicts
+
+Additionally, I've learned how to allow others to manage my repository through forks and then merge their changes into the main repository. This will be crucial for group projects.

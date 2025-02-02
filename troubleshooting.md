@@ -1,0 +1,2 @@
+- Resolved conflicts in branches
+  - Updated README.md in feature-addition to match main's file

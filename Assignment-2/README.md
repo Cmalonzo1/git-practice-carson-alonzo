@@ -17,7 +17,7 @@ through the VE
 ### My problems came down to creating the requirements.txt file and uninstalling from it.
 
 - I created the directory within my personal GitHub repository. I believe the path caused issues creating
-the file as I constantly encountered this issue: **UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb1 in position 81: invalid start byte** 
+the file as I constantly encountered this issue: <span style = color:red>UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb1 in position 81: invalid start byte</span>
 
     However, I experienced no issues generating the file in a different directory hosted outside of my GitHub repository.
 - When I tried uninstalling the libraries through my txt file, I didn't notice I was using the wrong path, so the terminal

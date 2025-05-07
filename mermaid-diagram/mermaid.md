@@ -23,10 +23,10 @@
     
     flowchart LR
 
-    classDef blue fill:#ADD8E6,stroke:#333,stroke-width:2px
-    classDef orange fill:#FFA500,stroke:#333,stroke-width:2px
-    classDef green fill:#90EE90,stroke:#333,stroke-width:2px
-    classDef red fill:#FF69B4,stroke:#333,stroke-width:2px
+    classDef blue fill:#0000FF,stroke:#333,stroke-width:2px,color:#000
+    classDef orange fill:#FF9500,stroke:#333,stroke-width:2px,color:#000
+    classDef green fill:#00FF00,stroke:#333,stroke-width:2px,color:#000
+    classDef red fill:#FF0000,stroke:#333,stroke-width:2px,color:#000
 
     User[User]
     User --o LoginScreen(Login/Register) -- Is Normal User -->Homepage{Homepage}:::blue

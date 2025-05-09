@@ -1,45 +1,34 @@
-"""
-import math
-import random
-
-"""
-
-"""
-Unoptimized function
 def expensive_op(n):
-    total = 0
-    for i in range(1000):
-        total += i * n
-    return total
-"""
+    """Multiply input number by sum of first 1000 integers.
 
-#updated function
-@profile
-def expensive_op(n):
+    Args:
+        n (int): Input multiplier
+
+    Returns:
+        int: Result of n * sum(range(1000))
+    """
     return n * sum(range(1000))
 
-@profile
 def slow_func(lst):
-    result = []
-    for i in range(len(lst)):
-        result.append(expensive_op(i))
-    return result
+    """Generate list of results from expensive_op for each index.
 
-"""
-Unused function
-def unused_function():
-    x = 10
-    y = 20
-    z = x + y
-    return z
-"""
+    Args:
+        lst (list): Input list determining the range length
 
+    Returns:
+        list: List of expensive_op results for indices 0 to len(lst)-1
+    """
+    return [expensive_op(i) for i in range(len(lst))]
 
 def main():
-    numbers = list(range(1000))
-    output = slow_func(numbers)
-    print("Done")
+    """Execute the main program flow.
 
+    Creates a list of first 1000 integers, processes it through slow_func,
+    and prints the results.
+    """
+    numbers = list(range(1000))
+    print(slow_func(numbers))
+    print("Done")
 
 if __name__ == "__main__":
     main()

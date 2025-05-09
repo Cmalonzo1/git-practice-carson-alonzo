@@ -120,7 +120,7 @@
 
 ```mermaid
     
-    flowchart TD
+    flowchart LR
     subgraph "Public Endpoints"
         NO1["/api/auth/register\n POST"]
         NO2["/api/auth/login\n POST"]
